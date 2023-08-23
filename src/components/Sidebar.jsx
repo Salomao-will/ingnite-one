@@ -14,7 +14,7 @@ export function Sidebar() {
 
         <img
           className={style.avatar}
-          src="https://images.unsplash.com/photo-1688143029511-b37423aa60a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzOXx0b3dKWkZza3BHZ3x8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+          src="https://github.com/Salomao-will.png"
         />
 
         <strong>Salomão Santos</strong>
