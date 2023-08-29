@@ -39,6 +39,16 @@ export default function Post() {
 
       </div>
 
+      <form className={style.commentForm}>
+        <strong>Deixe seu commentário</strong>
+
+        <textarea placeholder='Deixe um comentário' />
+
+        <footer>
+          <button type='submit'>Comentar</button>
+        </footer>
+      </form>
+
     </article>
   )
 }
