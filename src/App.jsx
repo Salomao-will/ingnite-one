@@ -13,9 +13,7 @@ function App() {
 
       <div className={style.wrapper}>
         <Sidebar />
-
         <Post />
-
       </div>
 
     </>
