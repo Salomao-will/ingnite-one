@@ -3,20 +3,20 @@ import styles from './Comment.module.css'
 
 export default function Comment() {
   return (
-    <div className={styles.Comment}>
+    <div className={styles.comment}>
       <img src="https://github.com/Salomao-will.png" alt="" />
 
-      <div className={styles.CommentBox}>
+      <div className={styles.commentBox}>
 
-        <div className="commentContent">
+        <div className={styles.commentContent}>
           <header>
-            <div className={styles.authorAndTimes}>
+            <div className={styles.authorAndTime}>
               <strong>Salomas Dev</strong>
               <time title='22 de Agosto de 2023' dateTime='2023-08-22'>Cerca de uma 1h atrás</time>
             </div>
 
             <button title='Deletar comentário'>
-              <Trash size={20} />
+              <Trash size={24} />
             </button>
           </header>
 
@@ -26,8 +26,9 @@ export default function Comment() {
         <footer>
           <button>
             <ThumbsUp />
+            Curtir <span>13</span>
           </button>
-          Aplaudir <span>13</span>
+
         </footer>
       </div>
     </div>
